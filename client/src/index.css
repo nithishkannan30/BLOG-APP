@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.ql-editor h1 {
+  @apply text-3xl font-bold;
+}
+.ql-editor h2 {
+  @apply text-2xl font-semibold;
+}
+.ql-editor h3 {
+  @apply text-xl font-medium;
+}
